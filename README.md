@@ -1,5 +1,5 @@
 # ![Syndicate](https://raw.githubusercontent.com/u3mur4/syndicate/master/logo.png) Syndicate Guide
-Last update: 2017.09.11
+Last update: 2017.09.13
 
 Use this instruction and the ~~youtube video~~ (not ready yet, do step 4 to motivate me a little bit) to install the wallet, fix wallet issues and setup one/multiple masternode(s).
 This guide is for the creation of separate Controller Wallet & Masternode.
@@ -31,7 +31,7 @@ Your coins will be safe if the masternode server gets hacked.
 | --------------| -------------|
 | [v1.0.1.8](https://github.com/SyndicateLabs/SyndicateQT/releases/download/v1.0.1.8/Syndicate.exe) | Sometimes freezes
 | [v1.0.1.7](https://github.com/SyndicateLabs/SyndicateQT/releases/download/v1.0.0.7/SyndicateQTv1.0.0.7-2016-07-26.zip) | Recommended version! Not freezes?
-| ~~patched~~  | There is a patched wallet version on synxhodl slack channel. That is a good wallet but **not** official!
+| [~~patched~~](https://mega.nz/#!srpBkKyL!iUNsdLXDRiimHhkG-iNDFe8tEv5m70L1TWePHFnSkHQ)  | There is a patched wallet version on synxhodl slack channel. That is a good wallet but **not** official!
 
 ### 1.2 Fix Wallet Sync Issue
 1. Unzip the wallet.
