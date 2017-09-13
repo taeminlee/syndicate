@@ -1,7 +1,7 @@
 # ![Syndicate](https://raw.githubusercontent.com/u3mur4/syndicate/master/logo.png) Syndicate Guide
 Last update: 2017.09.13
 
-Use this instruction and the ~~youtube video~~ (not ready yet, do step 4 to motivate me a little bit) to install the wallet, fix wallet issues and setup one/multiple masternode(s).
+Use this instruction and the youtube video to install the wallet, fix wallet issues and setup one/multiple masternode(s).
 This guide is for the creation of separate Controller Wallet & Masternode.
 For Security reasons, THIS IS THE PREFERRED way to run a Masternode. By running your Masternode in this way you are protecting
 your coins in your private wallet, and are not required to have your local wallet running after the Masternode has been started successfully.
@@ -10,6 +10,7 @@ Your coins will be safe if the masternode server gets hacked.
 ## Anouncments
 - 2017.09.03 Youtube video postponed until the guide is 100% complete. Now it's around 90%. Send pull requests to fix errors.
 - 2017.09.11 Add script to automatically setup the masternode server.
+- 2017.09.13 Youtube videos are ready
 
 ## Table of Content
 * [1. Desktop Wallet Preparation](#1-desktop-wallet-preparation)
@@ -24,7 +25,7 @@ Your coins will be safe if the masternode server gets hacked.
 * [4. The last and the most important step](#4-the-last-and-the-most-important-step)
 
 
-## 1. Desktop Wallet Preparation <a href="https://youtu.be/CtnJlrl-kU0" target="_blank"><img src="http://mupantquat.com/wp-content/plugins/social-profiles-sidebar-widget/iconsets/elegant-media-icons/32x32/youtube.png"></a>
+## 1. Desktop Wallet Preparation <a href="https://www.youtube.com/watch?v=CtnJlrl-kU0" target="_blank"><img src="http://mupantquat.com/wp-content/plugins/social-profiles-sidebar-widget/iconsets/elegant-media-icons/32x32/youtube.png"></a>
 
 ### 1.1 Download the desktop wallet
 | Wallet        | Description  |
@@ -55,7 +56,7 @@ Your coins will be safe if the masternode server gets hacked.
 1. Delete `%appdata%/Syndicate/peers.dat` file.
 1. Start the wallet and wait for the sync. (30min to 10h depending on the number of the connections)
 	
-## 2. Masternode Setup
+## 2. Masternode Setup <a href="https://www.youtube.com/watch?v=-Lt-ifQxS-w" target="_blank"><img src="http://mupantquat.com/wp-content/plugins/social-profiles-sidebar-widget/iconsets/elegant-media-icons/32x32/youtube.png"></a>
 
 ### 2.1 Send the coins to your wallet
 1. Open Console (Help => Debug window => Console)
@@ -121,7 +122,7 @@ wget https://raw.githubusercontent.com/u3mur4/syndicate/master/synx.py && python
 
 ## 4. The last and the most important step
 
-Send some love for the ~~video~~ and the instruction.
+Don't be shy, send a small amount of coin if you found this instruction helpful.
 
 | Coin           | Address  |
 | ---------------| ---------|
