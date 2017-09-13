@@ -147,7 +147,7 @@ def setup_first_masternode():
     run_command("useradd --create-home -G sudo mn1")
     os.system('su - mn1 -c "{}" '.format("Syndicated -daemon &> /dev/null"))
 
-    print_info("Open your desktop wallet config file (%appdata%/Syndicate/Syndicate.conf) and copy your rpc username and password! If it is not there create one! E.g.:\n\trpcuser=[SomeUserName]\n\trpcpassword=[HardAndLongPassword]")
+    print_info("Open your desktop wallet config file (%appdata%/Syndicate/Syndicate.conf) and copy your rpc username and password! If it is not there create one! E.g.:\n\trpcuser=[SomeUserName]\n\trpcpassword=[DifficultAndLongPassword]")
     global rpc_username
     global rpc_password
     rpc_username = raw_input("rpcuser: ")
