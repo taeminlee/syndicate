@@ -24,7 +24,7 @@ Your coins will be safe if the masternode server gets hacked.
 * [4. The last and the most important step](#4-the-last-and-the-most-important-step)
 
 
-## 1. Desktop Wallet Preparation
+## 1. Desktop Wallet Preparation <a href="https://youtu.be/CtnJlrl-kU0" target="_blank"><img src="http://mupantquat.com/wp-content/plugins/social-profiles-sidebar-widget/iconsets/elegant-media-icons/32x32/youtube.png"></a>
 
 ### 1.1 Download the desktop wallet
 | Wallet        | Description  |
@@ -72,8 +72,7 @@ Your coins will be safe if the masternode server gets hacked.
 1. Add your private OpenSSH key (Servers => SSH Key => Add SSH Key).
 1. Deploy a new server.
     - Server Type: Ubuntu 14.04  
-    - Server Size: 5$/mo, 1GB memory (This server is capable to run 3 masternodes. One masternode need 300-400Mb memory)  
-    - Add the private key
+    - Server Size: 5$/mo, 1GB memory (This server is capable to run 3 masternodes. One masternode need 300-400Mb memory)
 
 ### 2.3 Automatic Masternode Setup
 - Note: Use [this](https://github.com/u3mur4/syndicate/blob/master/MANUAL_SETUP.md) instruction to manualy setup the server.
