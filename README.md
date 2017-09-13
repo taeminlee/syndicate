@@ -31,7 +31,7 @@ Your coins will be safe if the masternode server gets hacked.
 | Wallet        | Description  |
 | --------------| -------------|
 | [v1.0.1.8](https://github.com/SyndicateLabs/SyndicateQT/releases/download/v1.0.1.8/Syndicate.exe) | Sometimes freezes
-| [v1.0.1.7](https://github.com/SyndicateLabs/SyndicateQT/releases/download/v1.0.0.7/SyndicateQTv1.0.0.7-2016-07-26.zip) | Still freezes!
+| [v1.0.0.7](https://github.com/SyndicateLabs/SyndicateQT/releases/download/v1.0.0.7/SyndicateQTv1.0.0.7-2016-07-26.zip) | Still freezes!
 | [~~patched~~](https://mega.nz/#!srpBkKyL!iUNsdLXDRiimHhkG-iNDFe8tEv5m70L1TWePHFnSkHQ)  | There is a patched wallet version on synxhodl slack channel. That is a good wallet but **not** official!
 
 ### 1.2 Fix Wallet Sync Issue
