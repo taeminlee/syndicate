@@ -7,11 +7,6 @@ For Security reasons, THIS IS THE PREFERRED way to run a Masternode. By running 
 your coins in your private wallet, and are not required to have your local wallet running after the Masternode has been started successfully.
 Your coins will be safe if the masternode server gets hacked.
 
-## Anouncments
-- 2017.09.03 Youtube video postponed until the guide is 100% complete. Now it's around 90%. Send pull requests to fix errors.
-- 2017.09.11 Add script to automatically setup the masternode server.
-- 2017.09.13 Youtube videos are ready
-
 ## Table of Content
 * [1. Desktop Wallet Preparation](#1-desktop-wallet-preparation)
 	* [1.1 Download the desktop wallet](#11-download-the-desktop-wallet)
