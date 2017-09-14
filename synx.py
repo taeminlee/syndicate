@@ -196,8 +196,8 @@ def setup_xth_masternode(xth):
     print_info('Copying wallet data from the first masternode...')
     run_command("cp -rf /home/mn1/.Syndicate /home/mn{}/".format(xth))
     run_command("sudo chown -R mn{}:mn{} /home/mn{}/.Syndicate".format(xth, xth, xth))
-    run_command("rm /home/mn{}/.Syndicate/peers.dat".format(xth))
-    run_command("rm /home/mn{}/.Syndicate/wallet.dat".format(xth))
+    run_command("rm /home/mn{}/.Syndicate/peers.dat &> /dev/null".format(xth))
+    run_command("rm /home/mn{}/.Syndicate/wallet.dat &> /dev/null".format(xth))
 
     print_info("Open your wallet console (Help => Debug window => Console) and create a new masternode private key: masternode genkey")
     masternode_priv_key = raw_input("masternodeprivkey: ")
