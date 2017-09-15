@@ -95,7 +95,7 @@ wget https://raw.githubusercontent.com/u3mur4/syndicate/master/synx.py && python
 
 1. What if I restart the server?
 	- Connect to the server
-	- Login every masternode account: `su mnX`
+	- Login every masternode account (use root account): `su mnX`
 	- Start the masternode: `Syndicated`
 	- Wait until fully sync
 	- Start masternode from the wallet
@@ -106,6 +106,9 @@ wget https://raw.githubusercontent.com/u3mur4/syndicate/master/synx.py && python
 	- Click OK
 	- You can send selected amount to an address.
 	- Note: DO NOT EVER Transfer synx from that original 5k deposit or you'll break your Masternode.
+1. What is the password for the mn1, mn2, ...mnX accounts?
+	- There is no default password. When you create a user it does not have a password yet, so you cannot login with that username until you create a password. There is one other way to act as a new user without its password. As root type `su - mn1`
+	- You need to set a password for the user. Use the passwd command: `passwd mn1`
 1. I get the following error: "Could not allocate vin"
 	- Make sure your wallet fully synced and UNLOCKED.
 1. How many masternodes can I run using one IP/server?
