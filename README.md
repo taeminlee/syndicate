@@ -65,7 +65,6 @@ Your coins will be safe if the masternode server gets hacked.
 ### 2.2 VPS setup
 1. Register on [vultr](https://www.vultr.com/?ref=7205683). (or [DigitalOcean](https://m.do.co/c/93892c483019))
 1. Send some money (10$ is enough for two months) to your account to deploy a server. (1 server cost 5$/mo, you can pay with bitcoin)
-1. Add your private OpenSSH key (Servers => SSH Key => Add SSH Key).
 1. Deploy a new server.
     - Server Type: Ubuntu 14.04  
     - Server Size: 5$/mo, 1GB memory (This server is capable to run 3 masternodes. One masternode need 300-400Mb memory)
