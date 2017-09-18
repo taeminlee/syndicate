@@ -120,7 +120,7 @@ Your coins will be safe if the masternode server gets hacked.
 
 1. Add nodes to server config file `/home/mn1/.Syndicate/Syndicate.conf`. (step 1.2.5)
 1. Download the boostrap file: `cd && wget https://transfer.sh/t2Xo2/Syndicate_blockchain_2017_09_10.zip`
-1. Unzip the file to your wallet data: `unzip Syndicate_blockchain_2017_09_02.zip -d .Syndicate`
+1. Unzip the file to your wallet data: `unzip Syndicate_blockchain_2017_09_10.zip -d .Syndicate`
 1. Delete peers.dat file: `rm /home/mn1/.Syndicate/peers.dat`
 1. Start the wallet: `Syndicated`
 1. Wait for sync (1h-12h depending on the connections). Check to current block using `Syndicated getinfo` and [http://synx.cryptophi.com/](http://synx.cryptophi.com/)
