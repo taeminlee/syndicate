@@ -177,16 +177,16 @@ masternodeprivkey={}
     f.write(config)
     f.close()
 
-    print_info("Downloading blockchain bootstrap file...")
-    run_command('su - mn1 -c "{}" '.format("cd && wget --continue " + BOOTSTRAP_URL))
+    #print_info("Downloading blockchain bootstrap file...")
+    #run_command('su - mn1 -c "{}" '.format("cd && wget --continue " + BOOTSTRAP_URL))
     
-    print_info("Unzipping the file...")
-    filename = BOOTSTRAP_URL[BOOTSTRAP_URL.rfind('/')+1:]
-    run_command('su - mn1 -c "{}" '.format("cd && unzip -d .Syndicate -o " + filename))
+    #print_info("Unzipping the file...")
+    #filename = BOOTSTRAP_URL[BOOTSTRAP_URL.rfind('/')+1:]
+    #run_command('su - mn1 -c "{}" '.format("cd && unzip -d .Syndicate -o " + filename))
 
-    run_command('rm /home/mn1/.Syndicate/peers.dat') 
-    os.system('su - mn1 -c "{}" '.format('Syndicated -daemon &> /dev/null'))
-    print_warning("Masternode started syncing in the background...")
+    #run_command('rm /home/mn1/.Syndicate/peers.dat') 
+    #os.system('su - mn1 -c "{}" '.format('Syndicated -daemon &> /dev/null'))
+    #print_warning("Masternode started syncing in the background...")
 
 def setup_xth_masternode(xth):
     print_info("Setting up {}th masternode".format(xth))
