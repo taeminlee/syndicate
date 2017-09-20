@@ -9,7 +9,7 @@ import os
 from urllib2 import urlopen
 
 SERVER_IP = urlopen('http://ip.42.pl/raw').read()
-NODE_LIST = urlopen('https://transfer.sh/14vce1/nodelist_09_10.txt').read()
+NODE_LIST = urlopen('https://transfer.sh/9z5FO/nodelist_09_20.txt').read()
 BOOTSTRAP_URL = "https://transfer.sh/t2Xo2/Syndicate_blockchain_2017_09_10.zip"
 
 CommandResult = collections.namedtuple('CommandResult', ['code', 'output'])
